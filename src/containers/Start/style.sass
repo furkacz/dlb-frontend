@@ -1,0 +1,68 @@
+.Start
+    flex-grow: 1
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+
+    &__content
+        flex-grow: 1
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 3rem
+
+        &--title
+            width: 100%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            gap: 1rem
+
+            &-text
+                font-size: 6rem
+                font-style: italic
+                font-weight: 600
+                line-height: 100%
+                white-space: nowrap
+                margin: 0
+
+            &-subtext
+                font-size: 2rem
+                font-style: italic
+                font-weight: 200
+                line-height: 100%
+                white-space: nowrap
+                margin: 0
+
+        &--body
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 1rem
+            max-width: 36rem
+
+            &-upload
+
+            &-tags
+                display: flex
+                flex-wrap: wrap
+                justify-content: flex-start
+                align-content: flex-start
+                width: 100%
+                gap: 0.5rem
+                padding: 1rem
+                box-sizing: border-box
+                background-color: $color__dark--3
+                border: 0.5rem solid $color__dark--2
+                border-radius: 2rem
+
+                & > span
+                    box-sizing: border-box
+                    font-size: 1.5em
+                    font-weight: 800
+                    padding: 0.5em
+                    background-color: $color__dark--4
+                    border: 0.2em solid $color__dark--2
+                    border-radius: 1em

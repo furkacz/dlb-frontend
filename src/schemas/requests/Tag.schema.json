@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "/schemas/requests/Tag.schema.json",
+  "title": "Tag",
+  "description": "Requests an image containing a clothing to be tagged"
+}
